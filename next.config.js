@@ -1,6 +1,6 @@
 module.exports = {
 	reactStrictMode: true,
 	images: {
-		domains: ['localhost'],
+		domains: ['ibosale-demo.vercel.app'],
 	},
 };
