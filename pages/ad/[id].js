@@ -29,7 +29,7 @@ const AdDetail = ({ ad }) => {
 	return (
 		<div className='flex flex-col items-center justify-center space-x-6 md:flex-row'>
 			{/* start Image Container */}
-			<div className='flex flex-col justify-center w-2/4 p-2 space-y-2 bg-gray-200 rounded-md shadow-md'>
+			<div className='flex flex-col justify-center w-full p-2 space-y-2 bg-gray-200 rounded-md shadow-md lg:w-2/4'>
 				<h1 className='font-bold'>{title}</h1>
 				<p>{date}</p>
 				<div className='w-5/12 mx-auto '>
@@ -58,7 +58,7 @@ const AdDetail = ({ ad }) => {
 
 			{/* start Ad Details Container */}
 
-			<div className='w-2/4 space-y-4 '>
+			<div className='w-full space-y-4 lg:w-2/4 '>
 				<p className='my-10 text-xl font-semibold text-green-500'>{price}</p>
 				<div className='flex space-x-8'>
 					<div>

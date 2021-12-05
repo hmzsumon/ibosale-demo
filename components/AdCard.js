@@ -14,7 +14,7 @@ const AdCard = ({ ad }) => {
 
 	return (
 		<div
-			className='flex items-center justify-center h-40 p-4 space-x-4 bg-white rounded-lg shadow-md cursor-pointer w-72'
+			className='flex items-center justify-center w-9/12 h-40 p-4 space-x-4 bg-white rounded-lg shadow-md cursor-pointer lg:w-72'
 			onClick={handleClick}
 		>
 			<div>

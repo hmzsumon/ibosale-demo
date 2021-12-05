@@ -17,11 +17,11 @@ const Login = () => {
 	return (
 		<>
 			<>
-				<div className='flex flex-col items-center justify-center h-screen px-4 pt-24  sm:px-6 lg:px-8'>
-					<div className='w-full max-w-md p-8 space-y-8 bg-white rounded shadow'>
+				<div className='flex flex-col items-center justify-center h-screen px-4 pt-2 sm:px-6 lg:px-8'>
+					<div className='w-full max-w-md p-4 space-y-8 bg-white rounded shadow'>
 						<div>
 							<h2 className='text-xl font-extrabold text-center text-gray-700 md:text-1xl'>
-								Login
+								Login Your Account
 							</h2>
 						</div>
 						<form className='mt-8 space-y-6' onSubmit={loginSubmit}>
